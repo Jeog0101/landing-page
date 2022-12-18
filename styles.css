@@ -58,7 +58,7 @@ a {
 .hero-text p {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -68,22 +68,102 @@ img {
 
 .hero-btn {
     background: #3882F6;
-    padding: 3px 8px;
+    padding: 8px 40px;
     text-align: center;
     border-radius: 5px;
+    color: white;
 }
 
 .info-section h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.info-section {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-cards {
     display: flex;
+    margin-top: 20px;
 }
 
 .cards {
-    flex: 1;
+    flex: 200px;
+    margin-left: 20px;
+}
+
+.cards > div {
+    height: 200px;
+    width: 200px;
+    border: 5px solid skyblue;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.cards > p {
+    max-width: 200px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.quotation {
+    background: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.quote{
+    max-width: 750px;
+}
+
+.quote p:nth-last-of-type(1) {
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.call-action-container {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action-section {
+    width: 1000px;
+    background: #3882f6;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.call-btn {
+    border: 1px solid white;
+}
+
+footer {
+    background: #1F2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
